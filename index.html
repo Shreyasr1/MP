@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenhouse Automation System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="header-container">
+        <h1>Greenhouse Automation System</h1>
+        <img src="vidyavardhaka-logo.png" alt="Vidyavardhaka College Logo" class="logo">
+    </div>
+    <p>Utilizing Deep Learning for Optimal Climate Control</p>
+</header>
+
+<section>
+    <h2>Overview</h2>
+    <p>This system automates humidity control in greenhouses using IoT sensors and deep learning models like Transformers. It ensures optimal plant growth by dynamically adjusting the environment, improving water and energy usage efficiency.</p>
+</section>
+
+<section>
+    <h2>Real-time Sensor Data</h2>
+    <div class="sensor-data">
+        <div><strong>Temperature:</strong> <span id="temperature">--</span> °C</div>
+        <div><strong>Humidity:</strong> <span id="humidity">--</span> %</div>
+    </div>
+</section>
+
+<section class="recommendation" id="recommendation">
+    <h2>Recommendations</h2>
+    <p id="advice">Please wait while we gather sensor data...</p>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
